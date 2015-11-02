@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="css/onsenui.css">
+    <link rel="stylesheet" type="text/css" href="css/onsen-css-components.css">
+  <link rel="shortcut icon" type="image/favicon.ico" href="img/favicon.ico">
+    <script src="lib/onsen/js/angular/angular.js"></script>
+    <script src="lib/onsen/js/onsenui.js"></script>
+	<title>PG-SGA</title>
+</head>
+
+<body>
+    
+     <div class="navigation-bar">
+            <div class="navigation-bar__center navigation-bar__title" style="font-weight:bold; font-size:20px;">การประเมินภาวะโภชนาการ (PG-SGA)</div> 
+     </div>
+    <div class="subject">
+        <h5>กิจกรรมและการทำงานต่างๆ</h5>
+        <ul id="navigation">
+        <li class="left"><a href="form3.html">ย้อนกลับ</a></li>
+        </ul>
+    </div>
+    
+    <div class="sectionForm">
+        <table align="center">
+        <td>
+        <form id="formLayout">
+        มากกว่า 1 เดือนที่ผ่านมา สามารถทำกิจกรรมได้ระดับใด
+        </form>
+
+        <form>
+        <input type="checkbox" name="degreeWeight" value="decrease"><label>ปกติไม่มีข้อจำกัดใดๆ</label>
+        <br>
+        <input type="checkbox" name="degreeWeight" value="normal"><label>ไม่ปกติด้วยตัวเอง แต่สามารถทำกิจกรรมได้</label>
+        <br>
+        <input type="checkbox" name="degreeWeight" value="increase"><label>เพลีย แต่อยู่ที่เตียงน้อยกว่าครึ่งวัน</label>
+        <br>
+        <input type="checkbox" name="degreeWeight" value="increase"><label>ทำกิจกรรมต่างๆได้น้อยลงและใช้เวลาส่วนใหญ่บนเตียง</label>
+        <br>
+        <input type="checkbox" name="degreeWeight" value="increase"><label>ส่วนใหญ่อยู่บนเตียงแทบไม่ได้ลุกออกจากเตียง</label>
+        <br>
+        </form>
+
+       <button class="button button--large--cta" style="margin-top:100px; font-family:WDB_Bangna">บันทึกการทำแบบประเมิน</button><br>
+
+        </td>
+        </table>
+    </div>
+    
+    <footer>
+    <ul id="tab-bar">
+        <li>
+            <a href="startform.html">แบบประเมิน</a>
+        </li>
+ 
+        <li>
+            <a href="profile.html">โปรไฟล์</a>
+        </li>
+    </ul>
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,264 @@
+@font-face{
+    font-family: WDB_Bangna;
+    src: url('font/WDB_Bangna.ttf');
+}
+
+html , body {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: WDB_Bangna;
+  position: fixed;
+}
+
+body {
+    width: 100%;
+    font-family: WDB_Bangna;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    height: 100%;
+  	overflow: auto;
+}
+
+.topic {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1%;
+    height: 100%;
+    overflow: auto;
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 5%;
+
+}
+.footer button{
+    font-family: WDB_Bangna;
+}
+.footer2 {
+    background-color: white;
+    color: black;
+    clear: both;
+    padding-top: 10px;
+    text-align: center;
+}
+.footer2 button{
+    font-family: WDB_Bangna;
+}
+.sectionLogin {
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 10%;
+    border-top: #7AC5CD 10px dashed;
+  	border-bottom: #7AC5CD 10px dashed;
+    margin-top: 20px;
+}
+.sectionLogin button{
+    font-family: WDB_Bangna;
+}
+
+.sectionLogin input {
+  margin: 5%;
+}
+
+.sectionForm {
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: left;
+    padding: 5%;
+    margin-top: 50px;
+}
+
+#formLayout 
+{
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+#boxtext{
+    height: 20px;
+    width: auto;
+}
+select{
+    font-family: WDB_Bangna;
+}
+#dropdown{
+    width: 100%;
+    height: auto;
+}
+#formLayout label, #formLayout input
+{
+   display: block;
+   width: 400px;
+   float: left;
+   margin-bottom: 10px;
+   margin-right:0.5em;
+}
+ 
+#formLayout label
+{
+   text-align: right;
+   padding-right: 20px;
+}
+ 
+br
+{ 
+   clear: both;
+}
+
+#formLayout2
+{
+   padding-left: 10px;
+}
+
+#formLayout2 label
+{
+   width: 200px;
+   float: left;
+   margin-bottom: 10px;
+   margin-right:0.5em;
+}
+
+#formLayout2 input
+{
+   margin-right:0.5em;
+}
+ 
+#formLayout2 label
+{
+   text-align: right;
+   padding-right: 20px;
+}
+.subject{
+    margin-top: -10px;
+    text-align: center;
+    
+}
+ul#navigation
+{
+list-style-type: none;
+margin: 0;
+padding: .5em 0;
+border-top: #7AC5CD 4px solid;
+margin-top: -20px;    
+}
+
+ul#navigation li a
+{
+display: block;
+width: 5em;
+color: #FFF;
+font-weight: bold;
+background-color: #036;
+padding: .4em 0;
+text-align: center;
+text-decoration: none;
+margin-top: -55px;
+}
+
+ul#navigation li a:hover
+{
+color: #FFF;
+background-color: #69C;
+}
+
+ul#navigation .left { float: left; }
+ul#navigation .right { float: right; }
+
+.menu
+{
+    background-color: white;
+    color: black;
+    clear: both;
+    text-align: center;
+    padding: 5%;	
+}
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a { text-decoration: none; }
+
+.btn-next {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+#tab-bar{
+    margin:0;
+    padding:0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+#tab-bar li {
+    display: inline;
+    float:left;  
+    width: 50%;
+}
+ 
+#tab-bar a {
+    color: #7AC5CD; 
+    display: block; 
+    font-weight: bold; 
+    overflow: hidden;  
+    position: relative; 
+    text-align: center; 
+    text-decoration: none;
+    -webkit-touch-callout:none;
+}
+
+footer{
+    background-color:#E9EAED;
+    padding:0;
+    position:absolute;
+    z-index:3;
+    font-size:20px;
+    width:100%;
+    text-align:center;
+    color:#7AC5CD;
+    font-weight:bold;
+    text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+    line-height:42px;
+    bottom:0; left:3;
+    height:45px;
+    background-color:#f6fafa;
+    border-top:1px solid #bcbcbc;
+}
+footer li a:hover{
+    color: #69C;
+    background-color: #69C;
+}
+

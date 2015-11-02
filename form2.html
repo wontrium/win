@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="css/onsenui.css">
+    <link rel="stylesheet" type="text/css" href="css/onsen-css-components.css">
+  <link rel="shortcut icon" type="image/favicon.ico" href="img/favicon.ico">
+    <script src="lib/onsen/js/angular/angular.js"></script>
+    <script src="lib/onsen/js/onsenui.js"></script>
+	<title>PG-SGA</title>
+</head>
+
+<body>
+        <div class="navigation-bar">
+                <div class="navigation-bar__center navigation-bar__title" style="font-weight:bold; font-size:20px;">การประเมินภาวะโภชนาการ (PG-SGA)</div> 
+        </div>
+    
+        <div class="subject">
+                <h5>ปริมาณอาหารที่ทาน</h5>
+                <ul id="navigation">
+                <li class="left"><a href="form1.html">ย้อนกลับ</a></li>
+                <li class="right"><a href="form3.html">ต่อไป</a></li>
+                </ul>
+        </div>
+    
+        <div class="sectionForm">
+                <table align="center">
+                <td>
+                <form id="formLayout">
+                เปรียบเทียบกับอาหารปกติในช่วงเดือนที่ผ่านมา
+                </form>
+
+                <form>
+                <input type="radio" name="degreeWeight" value="decrease"><label>ไม่เปลี่ยนแปลง</label>
+                <br>
+                <input type="radio" name="degreeWeight" value="normal"><label>มากกว่าปกติ</label>
+                <br>
+                <input type="radio" name="degreeWeight" value="increase"><label>น้อยกว่าปกติ</label>
+                <br>
+                </form>
+
+                <form id="formLayout">
+                ลักษณะอาหารที่ทานปัจจุบัน
+                <br>
+                </form>
+                 <select id="dropdown" name="gender">
+                    <option value="male">อาหารปกติแต่น้อยกว่าปริมาณปกติ</option>
+                     <option value="male">โจ๊กหรือข้าวต้ม</option>
+                     <option value="male">เฉพาะอาหารเหลว</option>
+                     <option value="male">ทานได้น้อยมาก</option>
+                     <option value="male">อาหารทางสายให้อาหารหรือเฉพาะอาหารทางหลอดเลือดดำ</option>
+                  </select>
+                
+
+                </td>
+                </table>
+        </div>
+
+        <footer>
+            <ul id="tab-bar">
+                <li>
+                    <a href="startform.html">แบบประเมิน</a>
+                </li>
+
+                <li>
+                    <a href="profile.html">โปรไฟล์</a>
+                </li>
+            </ul>
+      </footer>
+
+</body>
+
+</html>

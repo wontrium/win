@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/onsenui.css">
+    <link rel="stylesheet" type="text/css" href="css/onsen-css-components.css">
+    <link rel="shortcut icon" type="image/favicon.ico" href="img/favicon.ico">
+    <script src="lib/onsen/js/angular/angular.js"></script>
+    <script src="lib/onsen/js/onsenui.js"></script>
+	<title>PG-SGA</title>
+</head>
+
+<body>
+        <div class="navigation-bar">
+            <div class="navigation-bar__center navigation-bar__title" style="font-weight:bold; font-size:20px;">การประเมินภาวะโภชนาการ (PG-SGA)</div> 
+        </div>
+    
+        <div class="sectionLogin">
+            <form action="welcomePage.html" method="get" id="currentUserForm">
+            เลขประจำตัวผู้ป่วย/บุคลากรทางการแพทย์<br>
+            <input id="boxtext" type="text" name="userId">
+            <br>
+            รหัสผ่าน <br>
+            <input id="boxtext" type="password" name="userPassword">
+            </form>
+            <br>
+            <!--<button type="submit" form="currentUserForm" value="Submit">เข้าสู่ระบบ</button>-->
+            <button class="button button--large--cta">เข้าสู่ระบบ</button><br>
+        </div>
+
+        <div class="footer">
+            <form action="register.html" method="get" id="newUserForm">
+            <button class="button button--large--cta">ลงทะเบียนสำหรับผู้ป่วยใหม่</button><br>
+            <!--<button type="submit" form="newUserForm" value="Submit">ลงทะเบียนสำหรับผู้ป่วยใหม่</button>-->
+            </form>
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="css/onsenui.css">
+    <link rel="stylesheet" type="text/css" href="css/onsen-css-components.css">
+  <link rel="shortcut icon" type="image/favicon.ico" href="img/favicon.ico">
+	<title>PG-SGA</title>
+</head>
+
+<body>
+    <div class="navigation-bar">
+        <div class="navigation-bar__center" style="font-size:30px">
+            ลงทะเบียนผู้ป่วยใหม่
+        </div>
+    </div>
+    
+    <ons-page>
+        <div class="formarea" style="text-align:center; margin-top:20px;">
+            <div class="form-row" style="text-align:center; margin-top:20px;">
+              <input type="text" class="text-input--underbar width-full" placeholder="เลขประจำตัวผู้ป่วย" value="">
+            </div>
+
+             <div class="form-row" style="text-align:center; margin-top:10px;">
+              <input type="text" class="text-input--underbar width-full" placeholder="ชื่อ-นามสกุล" value="">
+            </div>
+
+             <div class="form-row" style="text-align:center; margin-top:10px;">
+              <input type="password" class="text-input--underbar width-full" placeholder="Password" value="">
+            </div>
+
+            <div class="form-row" style="text-align:center; margin-top:10px;">
+              <input type="text" class="text-input--underbar width-full" placeholder="เบอร์โทรศัพท์" value="" style="border-width-left: 1px">
+            </div>
+
+            <div class="form-row" style="text-align:center; margin-top:10px;">
+              <input type="password" class="text-input--underbar width-full" placeholder="โรคประจำตัว" value="">
+            </div>
+
+            <div class="form-row" style="text-align:center; margin-top:10px;">
+              <input type="password" class="text-input--underbar width-full" placeholder="อาหารที่แพ้" value="">
+            </div>
+
+            <!--<div class="lucent" style="font-size:10px">
+              <p class="note">Password - 6 characters or more</p>
+            </div>-->
+
+            <div class="vspc form-row">
+                <form action="welcomePage.html" method="get" id="newUserForm">
+                    <button class="button button--large--cta" style="margin-top:40px; font-family:WDB_Bangna">บันทึกการลงทะเบียน</button><br>
+                </form>
+            </div>
+        </div>
+  </ons-page>
+
+
+</body>
+
+</html>
